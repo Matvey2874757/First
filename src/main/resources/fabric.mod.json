@@ -1,0 +1,25 @@
+{
+  "_comment_file": "src/main/resources/fabric.mod.json",
+  "schemaVersion": 1,
+  "id": "zoommod",
+  "version": "${version}",
+  "name": "Simple Zoom Mod",
+  "description": "Hold C to zoom in.",
+  "authors": [
+    "you"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.zoommod.ZoomModClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
