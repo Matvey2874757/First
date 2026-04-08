@@ -1,19 +1,18 @@
 {
-  "_comment_file": "src/main/resources/fabric.mod.json",
   "schemaVersion": 1,
   "id": "zoommod",
   "version": "${version}",
-  "name": "Simple Zoom Mod",
-  "description": "Hold C to zoom in.",
+  "name": "Thunder Hammer Mod",
+  "description": "Adds a craftable Thunder Hammer weapon.",
   "authors": [
     "you"
   ],
   "contact": {},
   "license": "MIT",
-  "environment": "client",
+  "environment": "*",
   "entrypoints": {
-    "client": [
-      "com.example.zoommod.ZoomModClient"
+    "main": [
+      "com.example.zoommod.ZoomMod"
     ]
   },
   "depends": {
