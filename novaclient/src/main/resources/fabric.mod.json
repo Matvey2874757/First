@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "id": "novaclient",
   "version": "${version}",
-  "name": "Nova Client",
-  "description": "A legitimate Fabric client with beautiful space-themed menu and gameplay enhancements for Minecraft 1.21.1",
+  "name": "NovaClient",
+  "description": "Legitimate Minecraft client with gameplay improvements and custom menu",
   "authors": [
-    "Nova Team"
+    "NovaClient Team"
   ],
   "contact": {
     "homepage": "https://novaclient.com"
@@ -19,10 +19,10 @@
     ]
   },
   "mixins": [
-    "novaclient.mixins.json"
+    "mixins.novaclient.json"
   ],
   "depends": {
-    "fabricloader": ">=0.16.0",
+    "fabricloader": ">=0.16.2",
     "minecraft": "~1.21.1",
     "java": ">=21",
     "fabric-api": "*"

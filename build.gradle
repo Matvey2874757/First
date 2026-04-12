@@ -54,3 +54,9 @@ publishing {
         }
     }
 }
+
+loom {
+    mixin {
+        defaultRefmap = true
+    }
+}

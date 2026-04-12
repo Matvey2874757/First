@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "com.novaclient.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "client.MixinMinecraftClient",
+    "client.MixinMainMenuScreen",
+    "client.MixinInGameHud",
+    "client.MixinKeyboardInput",
+    "client.MixinMouseInput",
+    "client.MixinItemRenderer",
+    "client.MixinWorldRenderer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
